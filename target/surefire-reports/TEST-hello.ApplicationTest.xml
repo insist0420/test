@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.ApplicationTest" time="0.146" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\pleiades\java\8\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\pleiades\workspace\gjob_001_b002"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\pleiades\workspace\gjob_001_b002"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\pleiades\java\8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mats506\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\pleiades\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3926705308452682198.tmp"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="C:\pleiades\java\8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/pleiades/eclipse/jre/bin/../jre/bin/server;C:/pleiades/eclipse/jre/bin/../jre/bin;C:/pleiades/eclipse/jre/bin/../jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\pleiades\apache-maven-3.2.5\bin;;C:\pleiades\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\mats506"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="mats506"/>
+    <property name="java.class.path" value="/C:/pleiades/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\pleiades\java\8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ja"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\pleiades\java\8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\pleiades\java\8\jre\lib\resources.jar;C:\pleiades\java\8\jre\lib\rt.jar;C:\pleiades\java\8\jre\lib\sunrsasign.jar;C:\pleiades\java\8\jre\lib\jsse.jar;C:\pleiades\java\8\jre\lib\jce.jar;C:\pleiades\java\8\jre\lib\charsets.jar;C:\pleiades\java\8\jre\lib\jfr.jar;C:\pleiades\java\8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\pleiades\workspace\gjob_001_b002\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="homePage" classname="hello.ApplicationTest" time="0.12">
+    <failure message="Response content&#10;Expected: a string containing &quot;Get your greeting&quot;&#10;     but: was &quot;&lt;!DOCTYPE HTML&gt;&#10;&lt;html xmlns:th=&quot;http://www.thymeleaf.org&quot;&gt;&#10;&lt;head&gt;&#10;&lt;title&gt;Getting Started: Serving Web Content&lt;/title&gt;&#10;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&#10;&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&#10;&lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; /&gt;&#10;&lt;link href=&quot;css/bootstrap-responsive.min.css&quot; rel=&quot;stylesheet&quot; /&gt;&#10;&lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;link href=&quot;css/base.css&quot; rel=&quot;stylesheet&quot; /&gt;&#10;&lt;script src=&quot;js/webPageCreate.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;js/base.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;js/check.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;js/message.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;js/time.js&quot;&gt;&lt;/script&gt;&#10;&#10;&#10;&lt;/head&gt;&#10;&#10;&#10;&#10;&lt;body&gt;&#10;	&lt;header&gt;&#10;		&lt;div id=&quot;headerImage&quot;&gt;&lt;/div&gt;&#10;	&lt;/header&gt;&#10;	&lt;div id=&quot;DateArea&quot;&gt;&lt;/div&gt;&#10;	&lt;div id=&quot;ClockArea&quot;&gt;&lt;/div&gt;&#10;	&lt;div id=&quot;messageAria&quot;&gt;&lt;/div&gt;&#10;&#10;	&lt;nav&gt;&#10;		&lt;div id=&quot;contents&quot;&gt;&lt;/div&gt;&#10;	&lt;/nav&gt;&#10;&#10;&#10;	&lt;article&gt;&#10;		&lt;div class=&quot;box1&quot;&gt;&#10;			&lt;div id=&quot;main_menu&quot;&gt;&lt;/div&gt;&#10;		&lt;/div&gt;&#10;	&lt;/article&gt;&#10;&#10;	&lt;div class=&quot;box4&quot;&gt;&#10;		&lt;footer&gt;&#10;			&lt;div id=&quot;footerImage&quot;&gt;&lt;/div&gt;&#10;		&lt;/footer&gt;&#10;	&lt;/div&gt;&#10;&#10;	&lt;form name=&quot;moveForm&quot;&gt;&#10;		&lt;input id=&quot;postData&quot; type=&quot;hidden&quot;&gt;&lt;/input&gt;&#10;	&lt;/form&gt;&#10;&#10;&#10;&#10;&#10;	&lt;script type=&quot;text/javascript&quot;&gt;&#10;&#10;		var companyCode    = &quot;&quot;;&#10;		var UserNumber     = &quot;&quot;;&#10;		var UserName       = &quot;&quot;;&#10;&#10;		var gobalAuthority = &quot;&quot;;&#10;		var beforePage     = &quot;&quot;;&#10;		var currentPage    = &quot;&quot;&#10;		var globalValueList = [];&#10;&#10;		//25ã¯æ¨©éã³ã¼ã&#10;		setButtonParam(25);&#10;		//alert(buttonList);&#10;&#10;		webPageCreate(buttonList);		//restControllerå¦çã«ç½®æäºå®&#10;		pageChange(&quot;1000S&quot;);&#10;&#10;&#10;		//ç¦æ­¢äºé &#10;		//rightClickBan();&#10;		keyBan();&#10;&#10;&#10;&#10;&#10;&#10;&#10;		$(&quot;#menu li&quot;).hover(function() {&#10;		    $(this).children(&apos;ul&apos;).show();&#10;		}, function() {&#10;		    $(this).children(&apos;ul&apos;).hide();&#10;		});&#10;&#10;&#10;&#10;		function movePage(obj){&#10;			beforePage = currentPage;&#10;			pageChange(obj.name);&#10;		}&#10;&#10;&#10;	&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response content
+Expected: a string containing "Get your greeting"
+     but: was "<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+<script src="js/bootstrap.min.js"></script>
+<link href="css/base.css" rel="stylesheet" />
+<script src="js/webPageCreate.js"></script>
+<script src="js/base.js"></script>
+<script src="js/check.js"></script>
+<script src="js/message.js"></script>
+<script src="js/time.js"></script>
+
+
+</head>
+
+
+
+<body>
+	<header>
+		<div id="headerImage"></div>
+	</header>
+	<div id="DateArea"></div>
+	<div id="ClockArea"></div>
+	<div id="messageAria"></div>
+
+	<nav>
+		<div id="contents"></div>
+	</nav>
+
+
+	<article>
+		<div class="box1">
+			<div id="main_menu"></div>
+		</div>
+	</article>
+
+	<div class="box4">
+		<footer>
+			<div id="footerImage"></div>
+		</footer>
+	</div>
+
+	<form name="moveForm">
+		<input id="postData" type="hidden"></input>
+	</form>
+
+
+
+
+	<script type="text/javascript">
+
+		var companyCode    = "";
+		var UserNumber     = "";
+		var UserName       = "";
+
+		var gobalAuthority = "";
+		var beforePage     = "";
+		var currentPage    = ""
+		var globalValueList = [];
+
+		//25ã¯æ¨©éã³ã¼ã
+		setButtonParam(25);
+		//alert(buttonList);
+
+		webPageCreate(buttonList);		//restControllerå¦çã«ç½®æäºå®
+		pageChange("1000S");
+
+
+		//ç¦æ­¢äºé 
+		//rightClickBan();
+		keyBan();
+
+
+
+
+
+
+		$("#menu li").hover(function() {
+		    $(this).children('ul').show();
+		}, function() {
+		    $(this).children('ul').hide();
+		});
+
+
+
+		function movePage(obj){
+			beforePage = currentPage;
+			pageChange(obj.name);
+		}
+
+
+	</script>
+</body>
+</html>
+"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at hello.ApplicationTest.homePage(ApplicationTest.java:43)
+]]></failure>
+    <system-out><![CDATA[18:04:33.072 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.ApplicationTest]
+18:04:33.086 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:04:33.104 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:04:33.140 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:04:33.163 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.ApplicationTest], using SpringBootContextLoader
+18:04:33.173 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.ApplicationTest]: class path resource [hello/ApplicationTest-context.xml] does not exist
+18:04:33.174 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.ApplicationTest]: class path resource [hello/ApplicationTestContext.groovy] does not exist
+18:04:33.174 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:04:33.176 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.ApplicationTest]: ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:04:33.258 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.ApplicationTest]
+18:04:33.328 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:04:33.329 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:04:33.329 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:04:33.343 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/C:/pleiades/workspace/gjob_001_b002/target/test-classes/hello/], URL [file:/C:/pleiades/workspace/gjob_001_b002/target/classes/hello/]]
+18:04:33.344 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\pleiades\workspace\gjob_001_b002\target\test-classes\hello]
+18:04:33.344 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\pleiades\workspace\gjob_001_b002\target\test-classes\hello] for files matching pattern [C:/pleiades/workspace/gjob_001_b002/target/test-classes/hello/*.class]
+18:04:33.348 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\pleiades\workspace\gjob_001_b002\target\classes\hello]
+18:04:33.348 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\pleiades\workspace\gjob_001_b002\target\classes\hello] for files matching pattern [C:/pleiades/workspace/gjob_001_b002/target/classes/hello/*.class]
+18:04:33.350 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [C:\pleiades\workspace\gjob_001_b002\target\test-classes\hello\ApplicationTest.class], file [C:\pleiades\workspace\gjob_001_b002\target\classes\hello\Application.class], file [C:\pleiades\workspace\gjob_001_b002\target\classes\hello\GreetingController.class], file [C:\pleiades\workspace\gjob_001_b002\target\classes\hello\RestControllerTest.class]]
+18:04:33.409 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\pleiades\workspace\gjob_001_b002\target\classes\hello\Application.class]
+18:04:33.432 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.ApplicationTest
+18:04:33.438 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.ApplicationTest]: using defaults.
+18:04:33.443 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:04:33.455 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:04:33.456 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:04:33.457 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61009542, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77e9807f, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@448ff1a8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1a38c59b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f77e91b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44a664f2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f9fcf7f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2357d90a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6328d34a]
+18:04:33.460 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.ApplicationTest]
+18:04:33.461 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.ApplicationTest]
+18:04:33.464 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.ApplicationTest]
+18:04:33.464 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:04:33.464 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:04:33.465 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.ApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:04:33.466 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.ApplicationTest], using SpringBootContextLoader
+18:04:33.467 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.ApplicationTest]: class path resource [hello/ApplicationTest-context.xml] does not exist
+18:04:33.467 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.ApplicationTest]: class path resource [hello/ApplicationTestContext.groovy] does not exist
+18:04:33.467 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:04:33.468 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.ApplicationTest]: ApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:04:33.479 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.ApplicationTest]
+18:04:33.481 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:04:33.481 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:04:33.481 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:04:33.481 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration hello.Application for test class hello.ApplicationTest
+18:04:33.484 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [hello.ApplicationTest]: using defaults.
+18:04:33.490 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:04:33.491 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+18:04:33.492 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:04:33.493 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5762806e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17c386de, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@5af97850, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ef60048, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d548a08, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16aa0a0a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@780cb77, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@691a7f8f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50a7bc6e]
+18:04:33.493 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.ApplicationTest]
+18:04:33.493 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.ApplicationTest]
+18:04:33.495 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.ApplicationTest]
+18:04:33.495 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.ApplicationTest]
+18:04:33.502 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3b938003 testClass = ApplicationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6f3b5d16 testClass = ApplicationTest, locations = '{}', classes = '{class hello.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.ImportsContextCustomizer@976ebeae, org.springframework.boot.test.context.SpringBootTestContextCustomizer@3dd4520b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@43814d18, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@83816547], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:04:33.503 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [hello.ApplicationTest]
+18:04:33.504 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [hello.ApplicationTest]
+18:04:33.548 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:04:33.548 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:04:33.548 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:04:33.550 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+18:04:33.550 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.0.RELEASE)
+
+2016-09-30 18:04:34.214  INFO 7116 --- [           main] hello.ApplicationTest                    : Starting ApplicationTest on atp-PC with PID 7116 (started by mats506 in C:\pleiades\workspace\gjob_001_b002)
+2016-09-30 18:04:34.215  INFO 7116 --- [           main] hello.ApplicationTest                    : No active profile set, falling back to default profiles: default
+2016-09-30 18:04:34.675  INFO 7116 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@302c971f: startup date [Fri Sep 30 18:04:34 JST 2016]; root of context hierarchy
+2016-09-30 18:04:36.966  INFO 7116 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2016-09-30 18:04:36.966  INFO 7116 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-09-30 18:04:37.314  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/1000S],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView hello.GreetingController.index0(org.springframework.web.servlet.ModelAndView)
+2016-09-30 18:04:37.315  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/1001S],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView hello.GreetingController.index1(org.springframework.web.servlet.ModelAndView)
+2016-09-30 18:04:37.316  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/1002S],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView hello.GreetingController.index2(org.springframework.web.servlet.ModelAndView)
+2016-09-30 18:04:37.316  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/1020S],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView hello.GreetingController.index4(org.springframework.web.servlet.ModelAndView)
+2016-09-30 18:04:37.317  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/1010S],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView hello.GreetingController.index3(org.springframework.web.servlet.ModelAndView)
+2016-09-30 18:04:37.318  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getTime],methods=[GET]}" onto public java.lang.String hello.RestControllerTest.dateTime()
+2016-09-30 18:04:37.318  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/message],methods=[POST]}" onto public java.lang.String hello.RestControllerTest.formCheck(java.lang.String)
+2016-09-30 18:04:37.319  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getButtonParam],methods=[POST]}" onto public java.lang.String hello.RestControllerTest.buttonParam(java.lang.String)
+2016-09-30 18:04:37.326  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-09-30 18:04:37.327  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-09-30 18:04:37.333  INFO 7116 --- [           main] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-09-30 18:04:37.360  INFO 7116 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-09-30 18:04:37.384  INFO 7116 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-30 18:04:37.384  INFO 7116 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-30 18:04:37.415  INFO 7116 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-09-30 18:04:37.489  INFO 7116 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@302c971f: startup date [Fri Sep 30 18:04:34 JST 2016]; root of context hierarchy
+2016-09-30 18:04:38.217  INFO 7116 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1251 ms
+2016-09-30 18:04:38.488  INFO 7116 --- [           main] hello.ApplicationTest                    : Started ApplicationTest in 4.92 seconds (JVM running for 5.984)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /index.html
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Last-Modified=[Fri, 30 Sep 2016 09:02:40 GMT], Cache-Control=[no-store], Content-Length=[1846], Content-Type=[text/html], Accept-Ranges=[bytes]}
+     Content type = text/html
+             Body = <!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+<script src="js/bootstrap.min.js"></script>
+<link href="css/base.css" rel="stylesheet" />
+<script src="js/webPageCreate.js"></script>
+<script src="js/base.js"></script>
+<script src="js/check.js"></script>
+<script src="js/message.js"></script>
+<script src="js/time.js"></script>
+
+
+</head>
+
+
+
+<body>
+	<header>
+		<div id="headerImage"></div>
+	</header>
+	<div id="DateArea"></div>
+	<div id="ClockArea"></div>
+	<div id="messageAria"></div>
+
+	<nav>
+		<div id="contents"></div>
+	</nav>
+
+
+	<article>
+		<div class="box1">
+			<div id="main_menu"></div>
+		</div>
+	</article>
+
+	<div class="box4">
+		<footer>
+			<div id="footerImage"></div>
+		</footer>
+	</div>
+
+	<form name="moveForm">
+		<input id="postData" type="hidden"></input>
+	</form>
+
+
+
+
+	<script type="text/javascript">
+
+		var companyCode    = "";
+		var UserNumber     = "";
+		var UserName       = "";
+
+		var gobalAuthority = "";
+		var beforePage     = "";
+		var currentPage    = ""
+		var globalValueList = [];
+
+		//25??�P?�N?????????????
+		setButtonParam(25);
+		//alert(buttonList);
+
+		webPageCreate(buttonList);		//restController????????��????????????
+		pageChange("1000S");
+
+
+		//?????��??????
+		//rightClickBan();
+		keyBan();
+
+
+
+
+
+
+		$("#menu li").hover(function() {
+		    $(this).children('ul').show();
+		}, function() {
+		    $(this).children('ul').hide();
+		});
+
+
+
+		function movePage(obj){
+			beforePage = currentPage;
+			pageChange(obj.name);
+		}
+
+
+	</script>
+</body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="greetingWithUser" classname="hello.ApplicationTest" time="0.01">
+    <failure message="Response content&#10;Expected: a string containing &quot;Hello, Greg!&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: Response content
+Expected: a string containing "Hello, Greg!"
+     but: was ""
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at hello.ApplicationTest.greetingWithUser(ApplicationTest.java:55)
+</failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {name=[Greg]}
+          Headers = {}
+
+Handler:
+             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="greeting" classname="hello.ApplicationTest" time="0.016">
+    <failure message="Response content&#10;Expected: a string containing &quot;Hello, World!&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: Response content
+Expected: a string containing "Hello, World!"
+     but: was ""
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ContentResultMatchers$4.match(ContentResultMatchers.java:137)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at hello.ApplicationTest.greeting(ApplicationTest.java:49)
+</failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+</testsuite>

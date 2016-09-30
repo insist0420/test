@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+
+
+
+
+<body>
+
+	<p>タイムカード打刻</p>
+	<div id="messageAria"></div>
+
+	<article>
+		<section>
+			<div>step1</div><div>今日の業務を選択する</div>
+			<select id="work"></select>
+
+
+		</section>
+
+		<section>
+			<div>step2</div><div>送信するコメントを入力</div>
+			<textarea>ここに入力</textarea>
+
+		</section>
+
+
+
+		<section>
+			<div>step3</div><div>上記の内容で打刻する。</div>
+
+		<input type="button" value="出勤する"  id="b1" onclick="submitForm(this)"></input>
+		<input type="button" value="退勤する" id="b2" onclick="submitForm(this)"></input>
+
+
+		</section>
+		<input type="button" value="戻る"  id="pageBack" onclick="submitForm(this)"></input>
+		<section>
+
+		</section>
+
+
+	</article>
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		messageInit();
+		currentPage = "1010S";
+		document.getElementById("contents").hidden = true;
+
+		var messageStr;
+		var valid;
+		var work = ["1SOL","2SOL","3SOL","CLSG"];
+
+
+		workInputSelect("work",work);
+
+
+
+
+		function submitForm(obj) {
+			switch(obj.id){
+				case "b1":
+					alert(obj.value);
+					break;
+				case "b2":
+					alert(obj.value);
+					break;
+				case "pageBack":
+					pageChange("1000S");
+					break;
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		function getMessage() {
+
+		}
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

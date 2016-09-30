@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+
+
+
+
+<body>
+
+	<p>申請一覧</p>
+	<div id="messageAria"></div>
+
+
+
+
+
+
+
+
+	<input type="button" value="戻る"  id="pageBack" onclick="submitForm(this)"></input>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		messageInit();
+		currentPage = "1020S";
+		document.getElementById("contents").hidden = false;
+
+		var messageStr;
+		var valid;
+
+
+
+		function submitForm(obj) {
+			if(obj.id=="pageBack"){
+				pageChange(beforePage);
+			}
+		}
+
+
+
+		function getMessage() {
+
+		}
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
